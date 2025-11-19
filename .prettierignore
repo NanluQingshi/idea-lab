@@ -1,0 +1,17 @@
+node_modules
+.DS_Store
+.idea
+dist
+dist-ssr
+coverage
+.nvmrc
+*.local
+*.log
+*.md
+*.svg
+*.png
+
+.cache
+
+public/*
+src/assets

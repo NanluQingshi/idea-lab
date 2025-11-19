@@ -1,9 +1,6 @@
 {
   "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
@@ -16,7 +13,7 @@
       "@hooks": ["./src/hooks"],
       "@demos": ["./src/demos"],
       "@types": ["./src/types"],
-      "@enums": ["./src/enums"],
+      "@enums": ["./src/enums"]
     }
   },
   "exclude": ["node_modules", "dist"]
