@@ -22,7 +22,22 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* 添加路径别名配置 */
+    "baseUrl": ".",
+    "paths": {
+      "@src": ["./src"],
+      "@assets": ["./src/assets"],
+      "@style": ["./src/style"],
+      "@components": ["./src/components"],
+      "@pages": ["./src/pages"],
+      "@utils": ["./src/utils"],
+      "@hooks": ["./src/hooks"],
+      "@demos": ["./src/demos"],
+      "@types": ["./src/types"],
+      "@enums": ["./src/enums"]
+    },
   },
   "include": ["src"]
 }
